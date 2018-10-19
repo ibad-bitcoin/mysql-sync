@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "lib": ["es2017","webworker"],
+      "module": "commonjs",
+      "outDir": "./dist",
+      "removeComments": true,
+    },
+
+    "include": [
+      "./src/**/*"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }

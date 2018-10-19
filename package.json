@@ -1,0 +1,26 @@
+{
+  "name": "mysql-sync",
+  "version": "0.0.1",
+  "description": "Sync mysql table",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch && nodemon dist",
+    "app": "npm run build && node dist/index.js",
+    "tsc": "tsc"
+  },
+  "engines": {
+    "node": "8.x",
+    "npm": "6.x"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^10.12.0"
+  },
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "mysql": "^2.16.0"
+  }
+}
